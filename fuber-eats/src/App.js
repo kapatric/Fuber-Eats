@@ -1,7 +1,7 @@
-import Menu from "./Menu.jsx"
-import Delivery from './Delivery.jsx';
+import Menu from "./Menu.jsx";
+import Delivery from "./Delivery.jsx";
 import Cart from "./Cart.jsx";
-import './App.css';
+import "./App.css";
 import About from "./About";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";

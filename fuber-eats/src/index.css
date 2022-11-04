@@ -55,6 +55,9 @@ body {
   background-color: rgb(6, 8, 8);
 }
 .address {
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
   
 }
 button {
@@ -68,8 +71,4 @@ button {
 
 .input {
   width: 100%;
-  border-radius: 5px;
-  width: 250px;
-  height: 50px;
-  
 }
