@@ -1,15 +1,12 @@
 import React from "react"
 import { FaMapPin } from 'react-icons/fa';
-import { useNavigate } from "react-router-dom";
-import Food from '../Food.js'
+import {Link } from "react-router-dom";
+import Food from './Food.jsx'
 
 
 export default function Delivery() {
-  let navigate = useNavigate();
+
   
-  const pageChange = ()=>{
-    navigate(Food);
-  }
   
   return (
    
@@ -20,7 +17,8 @@ export default function Delivery() {
          <FaMapPin className="pin"/>
         <input className="delivery" type="text"
             placeholder="Enter delivery address" />
-          <button onClick={pageChange}>Find Food</button>
+          <button><Link to="/food">Find Food</Link></button>
+          
         </p>  
       </form>
       
